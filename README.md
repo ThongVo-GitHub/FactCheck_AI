@@ -23,18 +23,18 @@ Dự án ứng dụng:
 ```bash
 GPPM_2025/
 │
-├── checkpoints/              # PhoBERT model (fine-tuned)
+├── checkpoints/             
 │   ├── phobert_best.pth
 │   └── tokenizer/
 │
-├── indices/                  # BM25 + corpus text
+├── indices/                
 │   ├── bm25_index.pkl
 │   └── documents.txt
 │
-├── outputs/                  # Lưu LoRA adapter (nếu có)
+├── outputs/                 
 │
-├── retrieval.py              # SBERT retriever module (BM25 + SBERT)
-├── server.py                 # API server (FastAPI)
-├── app.py                    # Giao diện người dùng (Streamlit)
+├── retrieval.py              
+├── server.py                 
+├── app.py                    
 │
-└── requirements.txt          # Thư viện cần cài đặt
+└── requirements.txt          
